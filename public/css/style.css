@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+ background: white;
+ 
+}
+
+.banner{
+    background: url('../assets/img/cozies-tone-8Nrr92DE3XM-unsplash.jpg');
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+h3{
+    margin: 0;
+    font-size: 3rem;
+    height: 100%;
+    padding-top: 5px;
+    color: gray;
+}
+
+ul{
+     display: flex;
+     justify-content: end;
+}
+ul li a{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.footer-row{
+    background: teal;
+}
+.page-footer{
+    background: white;
+ 
+}
